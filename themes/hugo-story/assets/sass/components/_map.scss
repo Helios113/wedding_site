@@ -1,0 +1,17 @@
+.map-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); // Responsive grid
+    gap: 2rem; // Spacing between map items
+    justify-items: center; // Center items horizontally
+    align-items: start; // Align items vertically
+    margin-top: 2rem; // Add spacing above the container
+}
+
+.map-item {
+    text-align: center; // Center-align text
+    iframe {
+        width: 100%; // Make iframe responsive
+        height: 300px; // Adjust height for smaller screens
+        border: 0;
+    }
+}

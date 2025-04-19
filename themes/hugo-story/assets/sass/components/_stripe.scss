@@ -1,0 +1,15 @@
+.stripe-button-container {
+    display: flex;
+    justify-content: center; // Centers the button horizontally
+    align-items: center; // Centers the button vertically (if needed)
+    margin-top: 1rem; // Add spacing above the button if necessary
+    height: 100%; // Optional, adjust based on your layout
+}
+
+.stripe-info-box {
+    padding: 1rem; // Add some padding
+    margin-bottom: 1rem; // Add spacing below the info box
+    text-align: center; // Center-align the text in the info box
+    font-size: 1rem; // Adjust font size as needed
+    color: #333; // Text color
+}
