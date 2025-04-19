@@ -1,0 +1,16 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Abbie & Preslav 2025"
+subtitle: |
+
+content : |
+  
+button:
+  label1 : "Gift"
+  link1 : "#gift"
+  label2 : "Map and Parking"
+  link2 : "#map"
+  label3 : "Schedule"
+  link3 : "#schedule"
+image : "images/kings.jpg"
+
