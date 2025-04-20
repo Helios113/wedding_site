@@ -6,7 +6,7 @@ items:
   # feature item loop
   - name : "Wedding Service"
     time: "14:00"
-    content : "This is the wedding ceremony is St Matthew's Church. This will be followed by tea and coffee in the church."
+    content : "This is the wedding ceremony at St Matthew's Church. This will be followed by tea and coffee in the church."
     style : "style3 major fa-gem"
 
   # feature item loop
@@ -18,7 +18,7 @@ items:
   # feature item loop
   - name : "Pre-Drinks and Photos at Clare Hall"
     time: "16:30"
-    content : "There will be a drinks recpetion in Clare Hall with some snacks. During this time, the bride and groom and family will be taking photos in the gardens in Clare Hall."
+    content : "There will be a drinks reception in Clare Hall with some snacks. During this time, the bride and groom and family will be taking photos in the gardens in Clare Hall."
     style : "solid style3 major fa-wine-glass"
     
   # feature item loop
