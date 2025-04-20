@@ -5,13 +5,25 @@
     justify-items: center; // Center items horizontally
     align-items: start; // Align items vertically
     margin-top: 2rem; // Add spacing above the container
+
+    @media (min-width: 768px) { // For medium to large screens
+        grid-template-columns: repeat(3, 1fr); // Three columns for large screens
+    }
+
+    @media (max-width: 767px) { // For small screens
+        grid-template-columns: 1fr; // Single column for small screens
+    }
 }
 
 .map-item {
-    text-align: center; // Center-align text
-    iframe {
-        width: 100%; // Make iframe responsive
-        height: 300px; // Adjust height for smaller screens
-        border: 0;
-    }
+    width: 10%; /* Full width on smaller screens */
+    max-width: 600px; /* Optional: Limit the width on larger screens */
+    margin: 0 auto;
+}
+
+.map-item iframe {
+    width: 5000px; /* Make the iframe take the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    aspect-ratio: 4 / 3; /* Optional: Set a default aspect ratio */
+    border: 0; /* Remove border */
 }
